@@ -8,3 +8,5 @@ public interface ConfigurationRepository extends JpaRepository<ConfigurationTabl
 
     ConfigurationTable findById(String propiedadId);
 }
+
+
