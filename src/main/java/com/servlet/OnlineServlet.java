@@ -1,10 +1,9 @@
-package edu.eci.cvds.servlet;
-import edu.eci.cvds.servlet.model.Todo;
+package com.servlet;
+import com.servlet.model.Todo;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Writer;
-import java.net.MalformedURLException;
 import java.nio.charset.MalformedInputException;
 import java.util.Optional;
 import javax.servlet.ServletException;

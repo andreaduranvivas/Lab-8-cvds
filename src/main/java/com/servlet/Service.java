@@ -1,4 +1,4 @@
-package edu.eci.cvds.servlet;
+package com.servlet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
 import com.google.gson.Gson;
-import edu.eci.cvds.servlet.model.Todo;
+import com.servlet.model.Todo;
 
 
 public class Service {

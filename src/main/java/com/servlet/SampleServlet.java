@@ -1,4 +1,4 @@
-package edu.eci.cvds.servlet;
+package com.servlet;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.Optional;
