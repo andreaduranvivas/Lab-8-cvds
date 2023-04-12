@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+
+
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <script>
+            function submitForm() {
+                if (isNaN(document.forms["completeForm"]["numberId"].value)) {
+                    alert("Ingresar un numero valido");
+                    return false;
+                }
+            }
+        </script>
+
+        <form name="formId" action="/onlineServlet" method="GET">
+            <label ><h1>Ingresar su número de identificación</h1></label><br>
+            <input id="number" name="id"  placeholder="Ingresar el número del id" ><br>
+            <input id="submit" type="submit" value="Enviar" onclick="submitForm()">
+        </form>
+
+    </body>
+</html>

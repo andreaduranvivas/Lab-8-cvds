@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Bean;
 import javax.faces.webapp.FacesServlet;
 import javax.servlet.ServletContext;
 import java.util.Arrays;
+import com.numbergame.beans.ConfigurationService;
 
 @SpringBootApplication
 public class Main{
