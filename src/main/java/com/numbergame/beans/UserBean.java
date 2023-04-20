@@ -18,3 +18,4 @@ public class UserBean implements Serializable {
         this.name = name;
     }
 }
+
