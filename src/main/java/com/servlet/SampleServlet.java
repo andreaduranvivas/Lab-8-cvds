@@ -29,7 +29,7 @@ public class SampleServlet extends HttpServlet{
 
         resp.setStatus(HttpServletResponse.SC_OK);
 
-        responseWriter.write("Hello" + name + "!");
+        responseWriter.write("Bienvenido " + name + "!");
 
         responseWriter.flush();
 

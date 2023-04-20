@@ -61,7 +61,7 @@ public class OnlineServlet extends HttpServlet{
         Optional<String> optId = Optional.ofNullable(req.getParameter("id"));
         int id = optId.isPresent() ? Integer.parseInt(optId.get()) : -1;
         Writer responseWriter = resp.getWriter();
-        responseWriter.write("Hiciste un POST! " + id);
+        responseWriter.write("Añadiste un el id: " + id);
 
     }
 }

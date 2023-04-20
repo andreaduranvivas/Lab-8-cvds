@@ -25,11 +25,6 @@ public class ConfigurationService {
         }
         return null;
     }
-
-    public void deleteConfiguration(Long configurationId){
-        configurationRepository.deleteById(configurationId);
-    }
-
 }
 
 
