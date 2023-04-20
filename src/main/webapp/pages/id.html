@@ -11,7 +11,7 @@
         <script>
             function submitForm() {
                 if (isNaN(document.forms["completeForm"]["numberId"].value)) {
-                    alert("Ingresar un numero valido");
+                    alert("Ingresar un numero válido");
                     return false;
                 }
             }
@@ -19,7 +19,7 @@
 
         <form name="formId" action="/onlineServlet" method="GET">
             <label ><h1>Ingresar su número de identificación</h1></label><br>
-            <input id="number" name="id"  placeholder="Ingresar el número del id" ><br>
+            <input id="number" name="id"  placeholder="Ingrese su id" ><br>
             <input id="submit" type="submit" value="Enviar" onclick="submitForm()">
         </form>
 
